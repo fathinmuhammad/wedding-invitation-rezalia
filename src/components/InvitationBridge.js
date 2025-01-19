@@ -176,7 +176,7 @@ const InvitationBridge = () => {
                 marginBottom: '0rem'
               }}
             >
-              Putra pertama
+              Putra kedua
             </motion.p>
             <motion.p 
               className="mb-0"
@@ -252,7 +252,7 @@ const InvitationBridge = () => {
                 marginBottom: '0rem'
               }}
             >
-              Putri pertama
+              Putri kedua
             </motion.p>
             <motion.p 
               style={{
