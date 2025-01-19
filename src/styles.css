@@ -1,0 +1,715 @@
+  /* General styling for the header */
+  /* .header {
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Arial", sans-serif;
+    color: #2c3e50;
+  } */
+  
+  /* Styling for the header title */
+  /* .header h1 {
+    font-size: 3rem;
+    color: #3498db;
+    text-shadow: 2px 2px 4px rgba(52, 152, 219, 0.2);
+  } */
+  
+  /* Styling for the header paragraph */
+  /* .header p {
+    font-size: 1.2rem;
+    color: #34495e;
+  } */
+
+  /* Styling for the gift section */
+  .gift-section {
+    margin: 20px;
+    padding: 20px;
+    background: #ebf5fb;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Georgia", serif;
+    box-shadow: 0 4px 6px rgba(52, 152, 219, 0.1);
+  }
+  
+  /* Styling for the gift section title */
+  .gift-section h2 {
+    font-size: 2rem;
+    color: #2980b9;
+  }
+
+  /* Styling for the comment form */
+  .comment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 10px;
+    background: #f5f9fe;
+    box-shadow: 0 2px 4px rgba(52, 152, 219, 0.05);
+  }
+  
+  /* Styling for the comment form title */
+  .comment-form h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  /* Styling for the comment form input and textarea */
+  .comment-form input,
+  .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Styling for the comment form input and textarea when focused */
+  .comment-form input:focus,
+  .comment-form textarea:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Styling for the comment form button */
+  .comment-form button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+
+  /* Styling for the comment form button when hovered */
+  .comment-form button:hover {
+    background: #2980b9;
+  }
+
+  /* Styling for the comment list */
+
+  
+  /* Styling for the comment item */
+  .comment-item {
+    padding: 10px;
+    border-bottom: 1px solid #bdc3c7;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styling for the comment item when hovered */
+  .comment-item:hover {
+    background-color: #f5f9fe;
+  }
+  
+  /* Styling for the last comment item */
+  .comment-item:last-child {
+    border-bottom: none;
+  }
+
+  /* General styling for the invitation container */
+  .invitation-container {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(to bottom, #fef9f6, #f8f0e3);
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styling for the invitation content */
+  .invitation-content {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Styling for the image container */
+  .image-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the couple image */
+  .couple-image {
+    width: 80%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  /* Styling for the wedding title */
+  .wedding-title {
+    font-size: 18px;
+    color: #b08968;
+  }
+  
+  /* Styling for the couple names */
+  .couple-names {
+    font-size: 32px;
+    color: #4a4a4a;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the invitation to */
+  .invitation-to {
+    font-size: 16px;
+    color: #6b6b6b;
+  }
+  
+  /* Styling for the invitation location */
+  .invitation-location {
+    font-size: 16px;
+    color: #b08968;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the open invitation button */
+  .open-invitation-button {
+    background-color: #b08968;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styling for the open invitation button when hovered */
+  .open-invitation-button:hover {
+    background-color: #8f7051;
+  }
+  
+  /* Styling for the note */
+  .note {
+    font-size: 12px;
+    color: #999999;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the gallery item */
+  .gallery-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Styling for the gallery item when hovered */
+  .gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Styling for the bottom navigation */
+  .bottom-nav {
+    position: fixed;
+    bottom: 10px; /* Adjusting the position to not be too low */
+    left: 50%; /* Adjusting the position to be in the center */
+    transform: translateX(-50%); /* Adjusting the position to be in the center */
+    width: 90%;
+    background: #ffffff;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 0;
+    z-index: 1000;
+    border-radius: 20px; /* Making the appearance rounded to avoid looking stiff */
+    font-size: 0.8rem; /* Making the appearance not too large */
+  }
+  
+  /* Styling for the bottom navigation item */
+  .bottom-nav .nav-item {
+    background-color: #87CEEB; /* Soft blue domination */
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Styling for the bottom navigation item when hovered */
+  .bottom-nav .nav-item:hover {
+    background-color: #B0E0E6; /* Soft blue gradation */
+    transform: scale(1.1);
+  }
+  
+  /* Styling for the bottom navigation item icon */
+  .bottom-nav .nav-item i {
+    color: #4682B4; /* Steel blue for soft blue domination */
+    font-size: 1.5rem;
+  }
+  
+  /* Styling for the play music button */
+  .play-music-btn {
+    position: fixed;
+    top: 20px; /* Adjusting the position to the bottom right */
+    right: 20px; /* Adjusting the position to the right */
+    z-index: 1000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  /* Styling for the play music button when active */
+  .playing {
+    background: linear-gradient(135deg, #87ceeb 0%, #d3d3d3 100%);
+  }
+  
+  /* Styling for the play music button when paused */
+  .paused {
+    background: linear-gradient(135deg, #add8e6 0%, #e0e0e0 100%);
+  }
+  
+  /* Styling for the play music button when hovered */
+  .play-music-btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  
+  /* Styling for the invitation page container */
+  .invitation-container {
+    min-height: 100vh;
+    background: linear-gradient(rgba(240, 248, 255, 0.9), rgba(176, 216, 255, 0.9));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styling for the invitation content */
+  /* .invitation-content {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(135, 206, 235, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: auto;
+  } */
+  
+  /* Styling for the image container */
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Styling for the couple image */
+  .image-container img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1.5rem;
+    position: relative;
+    overflow: hidden;
+    filter: contrast(1.1) brightness(1.05);
+    border: 2px solid #87ceeb; /* Adding border for the couple image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding box shadow for the couple image */
+  }
+  
+  /* Styling for the invitation title */
+  .invitation-title {
+    color: #87ceeb;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-family: "Royal Wedding", sans-serif;
+    text-align: center;
+  }
+  
+  /* Styling for the invitation couple */
+  .invitation-couple { 
+    color: #1762ad;
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 0rem;
+  }
+  
+  /* Styling for the invitation text */
+  .invitation-text {
+    font-size: 1.2rem;
+    color: #778899;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Styling for the guest name */
+  /* PlayMusic.css */
+
+/* Tombol Musik */
+.play-music-btn {
+  position: fixed;
+  top: 20px; /* Mengubah posisi ke kanan bawah */
+  right: 20px; /* Mengubah posisi ke kanan */
+  z-index: 1000;
+  color: rgb(253, 253, 253);
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* Gradien saat tombol aktif */
+.playing {
+  background: linear-gradient(135deg, #87ceeb 0%, #d3d3d3 100%);
+}
+
+/* Gradien saat tombol tidak aktif */
+.paused {
+  background: linear-gradient(135deg, #add8e6 0%, #e0e0e0 100%);
+}
+
+/* Hover efek */
+.play-music-btn:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+/* InvitationPage.css */
+
+/* Container Utama */
+.invitation-container {
+  min-height: 100vh;
+  background: linear-gradient(rgba(240, 248, 255, 0.9), rgba(176, 216, 255, 0.9));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Konten Undangan */
+/* .invitation-content {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(135, 206, 235, 0.2);
+  text-align: center;
+  max-width: 500px;
+  width: auto;
+} */
+
+/* Container Gambar */
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Gambar Pasangan */
+.image-container img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1.5rem;
+  position: relative;
+  overflow: hidden;
+  filter: contrast(1.1) brightness(1.05);
+  border: 2px solid #87ceeb; /* Menambahkan border untuk gambar pasangan */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan box shadow untuk gambar pasangan */
+}
+
+/* Nama Tamu */
+.guest-name {
+  color: #1762ad;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Tombol Buka Undangan */
+.invitation-button {
+  background: #87ceeb;
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(135, 206, 235, 0.2);
+  font-family: "Playfair Display", serif;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+/* .invitation-button:hover {
+  transform: scale(1.05);
+} */
+
+/* Footer Teks */
+.invitation-footer {
+  color: #a9a9a9;
+  font-size: 0.8rem;
+  margin-top: 0rem;
+  font-family: "Playfair Display", serif;
+}
+
+/* InvitationDetails.css */
+
+.invitation-details {
+  min-height: 100vh;
+  background: linear-gradient(rgba(240, 248, 255, 0.9), rgba(176, 216, 255, 0.9));
+  padding: 2rem 1rem;
+  position: relative;
+  text-align: center;
+}
+
+.invitation-section {
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(135, 206, 235, 0.2);
+  background: rgba(255, 255, 255, 0.95);
+  position: relative;
+  padding: 1.5rem;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  /* backdrop-filter: blur(5px); */
+}
+
+.title {
+  font-family: 'Royal Wedding', sans-serif;
+  font-size: 2rem;
+  color: #1762ad;
+  text-shadow: 2px 2px 4px rgba(135, 206, 235, 0.2);
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+
+.subtitle {
+  font-family: 'Elsie', sans-serif;
+  font-size: 2rem;
+  color: #4682b4;
+  text-shadow: 2px 2px 4px rgba(135, 206, 235, 0.2);
+  margin-bottom: 1rem;
+}
+
+.wedding-date {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color: #4682b4;
+  text-shadow: 2px 2px 4px rgba(135, 206, 235, 0.2);
+  margin-bottom: 1.5rem;
+  margin-top: 0.4rem;
+}
+
+.save-date-btn button {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  color: #4682b4;
+  text-shadow: 2px 2px 4px rgba(135, 206, 235, 0.2);
+  padding: 0.8rem 2rem;
+  background-color: #f0f8ff;
+  border: 2px solid #87ceeb;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.save-date-btn button:hover {
+  background-color: #87ceeb;
+  color: white;
+}
+
+/* Styling for the scroll indicator */
+.scroll-indicator {
+  width: 24px;
+  height: 40px;
+  margin: 1rem auto;
+  border: 2px solid #b0e0e6;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(176, 224, 230, 0.3);
+}
+
+/* Styling for the scroll animation */
+.scroll-animation {
+  width: 4px;
+  height: 8px;
+  background: linear-gradient(180deg, #87ceeb, #b0e0e6);
+  margin: 4px auto;
+  border-radius: 2px;
+}
+
+.scroll-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  color: #4682b4;
+  text-shadow: 2px 2px 4px rgba(135, 206, 235, 0.2);
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 1.5rem 0;
+}
+
+.flower-frame-top-right {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-image: url("/src/assets/images/FrameTopRight.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+.flower-frame-top-left {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-image: url("/src/assets/images/FrameTopLeft.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+.flower-frame-bottom-right {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-image: url("/src/assets/images/FrameBottomRight.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+.flower-frame-bottom-left {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-image: url("/src/assets/images/FrameBottomLeft.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+.flower-top-left {
+  top: -20px;
+  left: -20px;
+}
+
+.flower-top-right {
+  top: -20px;
+  right: -20px;
+}
+
+.flower-bottom-left {
+  bottom: -20px;
+  left: -20px;
+}
+
+.flower-bottom-right {
+  bottom: -20px;
+  right: -20px;
+}
+
+/* CSS Invitation Bridge */
+/* General Styles */
+.invitation-wedding-date {
+  min-height: 100vh;
+  background: linear-gradient(rgba(240, 248, 255, 0.9), rgba(176, 216, 255, 0.9));
+  font-family: 'Playfair Display', serif;
+  padding: 2rem 1rem;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+/* Section Styles */
+#bride {
+  background: linear-gradient(rgba(240, 248, 255, 0.9), rgba(176, 216, 255, 0.9));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(135, 206, 235, 0.2);
+}
+
+/* Card Styles */
+.card {
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  border: 1px solid rgba(135, 206, 235, 0.3);
+  box-shadow: 0 10px 30px rgba(135, 206, 235, 0.2);
+  padding: 5rem;
+}
+
+/* Heading Styles */
+.font-arabic, .font-esthetic {
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.font-arabic {
+  font-size: 1.7rem;
+  color: #4682B4;
+}
+
+.font-esthetic {
+  font-size: 1.6rem;
+  color: #5F9EA0;
+}
+
+/* Image Styles */
+.invitation-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #87ceeb;
+  box-shadow: 0 5px 15px rgba(135, 206, 235, 0.3);
+  border-radius: 50%;
+  filter: brightness(1.05) contrast(1.1);
+}
+
+/* Names and Details */
+.invitation-name {
+  font-size: 1rem;
+  color: #4682B4;
+  font-family: 'Charmonman', sans-serif;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.invitation-detail {
+  font-size: 1rem;
+  color: #5F9EA0;
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.invitation-parents {
+  color: #778899;
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
